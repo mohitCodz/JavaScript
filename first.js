@@ -7,3 +7,4 @@ const product ={
 };
 
 console.log(product);
+console.log("Hello World");
