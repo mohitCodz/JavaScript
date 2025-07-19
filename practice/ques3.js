@@ -1,0 +1,1 @@
+// for an given array ,print the square for each value using for each loop 
