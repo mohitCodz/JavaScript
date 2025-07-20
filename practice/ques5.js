@@ -1,1 +1,2 @@
 // 
+prompt("Enter an array");
