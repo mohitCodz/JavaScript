@@ -1,1 +1,1 @@
-// program to show the
+// program to show the use of the reduce method
