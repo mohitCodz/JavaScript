@@ -4,4 +4,4 @@ let arr =[1,2,3,4,56,7,8,9,10];
 arr.filter((val)=>{
     return val % 2 == 0;
 });
-console.log(evenArray);
+console.log(evenArr);
