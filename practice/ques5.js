@@ -8,6 +8,13 @@ console.log(arr); // printing the array
 
 // finding the sum of all numbers using reduce meathod
 
-const output=arr.reduce((result,current)=>{
+const sum =arr.reduce((result,current)=>{
     return result + current;
-})
+});
+console.log(sum);
+
+// product of all the numbers
+const sum =arr.reduce((result,current)=>{
+    return result + current;
+});
+console.log(sum);
