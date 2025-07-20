@@ -1,1 +1,1 @@
-// in an given array . filter out the marks of students
+// in an given array . filter out the marks of students hat scored 90+
