@@ -14,7 +14,7 @@ const sum =arr.reduce((result,current)=>{
 console.log(sum);
 
 // product of all the numbers
-const sum =arr.reduce((result,current)=>{
-    return result + current;
+const product =arr.reduce((result,current)=>{
+    return result * current;
 });
-console.log(sum);
+console.log("The product is",product); // display on the screen
