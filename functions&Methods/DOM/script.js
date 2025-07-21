@@ -1,9 +1,11 @@
+// Ques - create three divs with common name "box" and
+
 let h2 = document.querySelector("h2");
 console.dir(h2.innerText);
 
 h2.innerText = h2.innerText + "from Mohit";
 
-
+// this is the more efiitient way to solve this ques
 let div = document.querySelectorAll(".box");
 let idx = 0; // index
 for(div of divs){
@@ -12,6 +14,6 @@ for(div of divs){
 }
 
 
-div[0].innerText="Hello World";  // div[0]  we are accessing the first element 
-div[1].innerText="I am learning JavaScript!";  // div[1]  we are accessing the second element 
-div[2].innerText="Keep Coding";  // div[2]  we are accessing the third element 
+// div[0].innerText="Hello World";  // div[0]  we are accessing the first element 
+// div[1].innerText="I am learning JavaScript!";  // div[1]  we are accessing the second element 
+// div[2].innerText="Keep Coding";  // div[2]  we are accessing the third element 
