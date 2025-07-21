@@ -7,7 +7,7 @@ h2.innerText = h2.innerText + "from Mohit";
 let div = document.querySelectorAll(".box");
 
 for(div of divs){
- div.innerText = ""
+ div.innerText = "new string"
 }
 
 
