@@ -8,6 +8,7 @@ let div = document.querySelectorAll(".box");
 let idx = 0; // index
 for(div of divs){
  div.innerText = `new unique value ${idx}`;
+ idx++;
 }
 
 
