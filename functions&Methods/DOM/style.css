@@ -10,4 +10,7 @@ button {
     color: peru;
 }
 
-.box
+.box{
+    height: 100px;
+    width: 90px;
+}
