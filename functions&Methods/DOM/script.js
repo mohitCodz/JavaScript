@@ -1,1 +1,1 @@
-document.getElementById("header");
+document.getElementById("heading");
