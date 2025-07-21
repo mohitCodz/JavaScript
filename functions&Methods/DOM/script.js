@@ -1,4 +1,4 @@
-// Ques - create three divs with common name "box". Access them
+// Ques - create three divs with common name "box". Access them & add some unique text 
 
 let h2 = document.querySelector("h2");
 console.dir(h2.innerText);
