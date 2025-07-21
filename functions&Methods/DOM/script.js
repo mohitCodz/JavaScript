@@ -5,9 +5,9 @@ h2.innerText = h2.innerText + "from Mohit";
 
 
 let div = document.querySelectorAll(".box");
-let idx = 
+let idx = 0; // index
 for(div of divs){
- div.innerText = "new unique value";
+ div.innerText = `new unique value ${idx}`;
 }
 
 
