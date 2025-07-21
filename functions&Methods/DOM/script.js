@@ -1,1 +1,2 @@
-document.getElementById("heading");
+let heading=document.getElementById("heading"); 
+console.log(heading);
