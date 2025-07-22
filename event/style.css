@@ -1,5 +1,7 @@
-button {
+button { height: 100px;
+    width: 100px;
     background-color: yellow;
-    border: 5px;
-    margin: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
 }
