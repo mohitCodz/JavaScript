@@ -1,1 +1,1 @@
-// create a toggler button that turns the screen to the dark mode when clicked
+// create a toggle button that turns the screen to the dark mode when clicked
