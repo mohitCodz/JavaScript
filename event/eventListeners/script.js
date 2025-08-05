@@ -1,2 +1,2 @@
 
-let btn1 =
+let btn1 = document.querySelector
