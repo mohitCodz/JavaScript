@@ -16,5 +16,7 @@ btn1.addEventListener("click",() => {
     console.log("button 1 was clicked -4");
 })
 
-btn1.removeEventListener
+btn1.removeEventListener("click",() => {
+    console.log("button 1 was clicked - 2");
+})
 
