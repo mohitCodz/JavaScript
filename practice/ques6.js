@@ -3,5 +3,10 @@ let modeBtn = document.querySelector('#mode');
 
 let currMode = "light";
 modeBtn.addEventListener("click",()=>{
-    console.log("You are trying to change the mode")
+    if( currMode == "light"){
+        currMode = "dark";
+    }
+    else{
+ currMode = "light"
+    }
 })
