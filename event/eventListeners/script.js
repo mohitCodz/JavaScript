@@ -1,2 +1,2 @@
 
-let btn1 = document.querySelector
+let btn1 = document.querySelector('#btn1')
