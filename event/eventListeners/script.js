@@ -8,9 +8,11 @@ btn1.addEventListener("click",() => {
 btn1.addEventListener("click",() => {
     console.log("button 1 was clicked - 2");
 })
-btn1.addEventListener("click",() => {
+
+const handler = () => {
     console.log("button 1 was clicked -3");
-})
+}
+btn1.addEventListener("click",handler)
 
 btn1.addEventListener("click",() => {
     console.log("button 1 was clicked -4");
