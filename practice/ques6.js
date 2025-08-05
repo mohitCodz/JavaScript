@@ -6,11 +6,11 @@ let currMode = "light";
 modeBtn.addEventListener("click",()=>{
     if( currMode == "light"){
         currMode = "dark";
-       body.style.backgroundColor = "black";
+       body.classList.add("dark");
     }
     else{
  currMode = "light";
-body.style.backgroundColor = "white";
+body.style.add("light")
     }
     console.log(currMode);
 })
