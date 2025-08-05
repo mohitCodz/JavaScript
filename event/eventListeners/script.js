@@ -1,3 +1,3 @@
 
 let btn1 = document.querySelector('#btn1');
-btn1.addEventListener
+btn1.addEventListener("clicl",)
