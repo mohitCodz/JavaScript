@@ -12,4 +12,5 @@ modeBtn.addEventListener("click",()=>{
 
         document.querySelector("body").style.backgroundColor = "white";
     }
+    console.log(currMode)
 })
