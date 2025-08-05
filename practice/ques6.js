@@ -10,7 +10,7 @@ modeBtn.addEventListener("click", () => {
     }
     else {
         currMode = "light";
-        body.style.add("light");
+        body.classList.add("light");
     }
     console.log(currMode);
 })
