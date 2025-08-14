@@ -7,7 +7,7 @@ const employee = {
 // new employee1
 const newEmployee1 = {
     salary: 50000,
-    // when we call calTax() it will call the 
+    // when we call calTax() it will call the inner calTax() that is written in it's own object
     calTax() {
           console.log("The tax rate is 20%");
     },
