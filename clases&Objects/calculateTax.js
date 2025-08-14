@@ -17,12 +17,15 @@ newEmployee1.__proto__ = employee;
 const newEmployee2 = {
      salary: 50000,
 };
+newEmployee2.__proto__ = employee;
 
 // new employee3
 const newEmployee3 = {
      salary: 50000,
 };
+newEmployee3.__proto__ = employee;
 // newemployee4
 const newEmployee4 = {
      salary: 50000,
 };
+newEmployee4.__proto__ =employee;
