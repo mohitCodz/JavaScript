@@ -1,7 +1,10 @@
-class student = {
- fullName : "Mohit",
- marks : 90.5,
- printMarks: function() {
-    console.log("marks =",marks);
- },
+const student = {
+  fullName: "Mohit", // full name
+  marks: 90.5, // marks
+  // printMarks () to print the marks 
+  printMarks: function() {
+    console.log("marks =", this.marks);
+  },
 };
+
+student.printMarks();
