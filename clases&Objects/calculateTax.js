@@ -1,5 +1,5 @@
 const employee {
-    calculaterTax(){
+    calTax(){
         console.log("The tax rate is 12%");
     },
 };
