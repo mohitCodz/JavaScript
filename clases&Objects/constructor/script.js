@@ -3,7 +3,7 @@ class toyotaCar {
     // constructor
 
     constructor(){
-  console.log("")
+  console.log("Constructor is creathing the new object");
     }
 
     // meathod
