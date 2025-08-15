@@ -5,7 +5,7 @@ class toyotaCar {
     stop() {
         console.log("stop");
     }
-    modelYear(yerar) {
+    modelYear(year) {
         this.modelYear = 2025;
     }
 };
