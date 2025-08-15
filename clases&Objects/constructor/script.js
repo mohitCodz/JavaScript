@@ -1,4 +1,12 @@
 class toyotaCar {
+
+    // constructor
+
+    constructor(){
+
+    }
+
+    // meathod
     start() {
         console.log("start");
     }
