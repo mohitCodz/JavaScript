@@ -17,3 +17,5 @@
 - Super keyword
 ### Inheritance
 - Inheritance in the JavaScript
+## Error Handling 
+- Showcasing the use of the Error handling in JavaScript
