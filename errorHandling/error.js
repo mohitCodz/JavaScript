@@ -2,3 +2,4 @@
 let a = 2;
 let b = 2;
 console.log("a = ",a);
+console.log("b = ",b);
