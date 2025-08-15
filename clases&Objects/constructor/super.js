@@ -14,9 +14,5 @@ class Child extends Parent {
         console.log("Good Night");
     }
 }
-// child class2
-class Child2 extends Parent {
-    morning() {
-        console.log("Good Morning");
-    }
-}
+// obj
+let munna = new Child();
