@@ -3,7 +3,7 @@ class toyotaCar {
     // constructor
 
     constructor(){
-
+  console.log("")
     }
 
     // meathod
