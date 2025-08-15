@@ -14,6 +14,7 @@ class toyotaCar {
     stop() {
         console.log("stop");
     }
+    // meathod
     modelYear(year) {
         this.year = 2025; // storing the year in the property name year
     }
