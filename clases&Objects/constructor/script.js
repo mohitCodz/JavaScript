@@ -15,7 +15,7 @@ class toyotaCar {
         console.log("stop");
     }
     modelYear(year) {
-        this.modelYear = 2025;
+        this.year = 2025; // storing
     }
 };
 
