@@ -1,10 +1,10 @@
 class toyotaCar {
 
     // constructor
-
-    constructor(year){
+    constructor(year,milage){
   console.log("Constructor is creathing the new object");
   this.year = year;
+  this.milage = milage;
     }
 
     // meathod
