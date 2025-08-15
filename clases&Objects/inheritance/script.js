@@ -2,6 +2,9 @@
 
 class Car {
 
+    // constructor
+    
+
     //start meathod
     start(){
         console.log("Start");
