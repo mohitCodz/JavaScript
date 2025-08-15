@@ -12,5 +12,5 @@ class User {
     }
 }
 // object
-let student1 = new User();
-let student2 = new User();
+let student1 = new User("Mohit","abc@gmail.com");
+let student2 = new User("Ram","abc@gmail.com");
