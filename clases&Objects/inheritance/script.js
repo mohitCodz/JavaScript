@@ -6,6 +6,9 @@ class Parent {
     bye() {
         console.log("bye!")
     }
+    eat(){
+        console.log("eat now");
+    }
 }
 // child class ( inherting the property form the parent class )
 class Child extends Parent {
