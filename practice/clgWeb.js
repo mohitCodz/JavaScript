@@ -8,6 +8,9 @@ class User {
     }
     // meathod for viewing the data
     viewData() {
-        console.log("Viewing the data",DATA); // seeing the data
+        console.log("Viewing the data", DATA); // seeing the data
     }
 }
+// object
+let student1 = new User();
+let student2 = new User();
