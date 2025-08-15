@@ -19,6 +19,7 @@ class Child extends Parent {
         super(name); // to invoke parent class constructor
     }
     sleep() {
+        super.eat();  // calling the eat meathod 
         console.log("Good Night");
     }
 }
