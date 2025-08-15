@@ -14,5 +14,6 @@
 - Objects in Javascript
 ### Constructor
 - Constructor in JavaScript
+- Super keyword
 ### Inheritance
 - Inheritance in the JavaScript
