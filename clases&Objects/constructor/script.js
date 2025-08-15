@@ -1,6 +1,6 @@
 // class
 
-class Class {
+class Car {
     // constructor
     constructor(brandName,year,milage ) {
         console.log("Constructor is now creating the objcts");
