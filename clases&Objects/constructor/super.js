@@ -13,7 +13,7 @@ class Parent {
 class Child extends Parent {
     // constructor
     constructor(name) {
-          console.log("Enter parent constructor"); // to see which constructor is called first
+          console.log("Enter child constructor"); // to see which constructor is called first
         // using the super keyword
         super(); // to invoke parent class constructor
         this.name = name;
