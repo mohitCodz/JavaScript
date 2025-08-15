@@ -10,6 +10,7 @@ class toyotaCar {
     start() {
         console.log("start");
     }
+    // meathod
     stop() {
         console.log("stop");
     }
