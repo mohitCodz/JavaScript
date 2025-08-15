@@ -1,9 +1,10 @@
 // class parent
 class Parent {
     // constructor 
-    constructor() {
+    constructor(name) {
         console.log("Enter parent constructor"); // to see which constructor is called first
         this.species = "homo sapiens";
+           this.name = name;
     }
     eat() {
         console.log("Eat food now");
@@ -15,12 +16,11 @@ class Child extends Parent {
     constructor(name) {
           console.log("Enter child constructor"); // to see which constructor is called first
         // using the super keyword
-        super(); // to invoke parent class constructor
-        this.name = name;
+        super(name); // to invoke parent class constructor
     }
     sleep() {
         console.log("Good Night");
     }
 }
 // object
-let munna = new Child("ram");
+let munna = new Child("mohit");
