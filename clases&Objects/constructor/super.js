@@ -2,17 +2,23 @@
 class Parent {
     // constructor 
     constructor() {
-        this.age = age;
+        this.species = "homo sapiens";
     }
     eat() {
-        console.log("Eat the food now");
+        console.log("Eat food now");
     }
 }
-// child class1
+// child class
 class Child extends Parent {
+    // constructor
+    constructor(name) {
+        // using the super keyword
+        super(); // to invoke parent class constructor
+        this.name = name;
+    }
     sleep() {
         console.log("Good Night");
     }
 }
 // obj
-let munna = new Child();
+let munna = new Child("ram");
