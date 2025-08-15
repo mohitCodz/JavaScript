@@ -22,5 +22,5 @@ class Child extends Parent {
         console.log("Good Night");
     }
 }
-// obj
+// object
 let munna = new Child("ram");
