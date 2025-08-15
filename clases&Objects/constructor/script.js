@@ -2,8 +2,9 @@ class toyotaCar {
 
     // constructor
 
-    constructor(){
+    constructor(year){
   console.log("Constructor is creathing the new object");
+  this.year = year;
     }
 
     // meathod
