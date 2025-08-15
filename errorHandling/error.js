@@ -5,6 +5,10 @@ console.log("a = ",a);
 console.log("b = ",b);
 console.log ("a + b ", a + b);
 console.log ("a - b ", a - b);
-console.log ("a + b ", a + c);
+try {
+    console.log ("a + b ", a + c); // error line
+} catch() {
+
+}
 console.log ("a + b ", a + b);
 console.log ("a + b ", a + b);
