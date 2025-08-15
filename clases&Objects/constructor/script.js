@@ -23,5 +23,5 @@ class toyotaCar {
 // creating object
 // now fortuner is made on the basis of toyotaCar
 let fortuner = new toyotaCar(); // constructor will invoke
-let innova = new toyotaCar();
-let glanza = new toyotaCar();
+let innova = new toyotaCar(); // constructor will invoke
+let glanza = new toyotaCar();// constructor will invoke
