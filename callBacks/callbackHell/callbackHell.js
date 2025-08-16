@@ -5,3 +5,4 @@ function getData(dataId,getNextData) {
         getNextData(); // function calling 
     },2000);
 }
+getData(1);
