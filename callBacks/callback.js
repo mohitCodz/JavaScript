@@ -7,4 +7,4 @@ function calculator(a,b,sumCallBack){
     sumCallBack(a,b); 
 }
 // call
-calculator(1,2,sum);
+calculator(1,2,sum); // here sum ia passsing as an argument to another function ( calculator ) this is called callback
