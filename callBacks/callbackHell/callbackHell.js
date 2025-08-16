@@ -1,4 +1,4 @@
 // fucntion
-function getData(dataId){
+function getData(dataId){ 
     console.log("data",dataId);
 }
