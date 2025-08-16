@@ -1,4 +1,4 @@
-# JavaScript from basic
+# JavaScript from basic 
 ## Functions and Meathods
 - All functions and meathods in the javaScript
 # Document Object Model ( DOM )
@@ -19,3 +19,8 @@
 - Inheritance in the JavaScript
 ## Error Handling 
 - Showcasing the use of the Error handling in JavaScript
+## Sync
+- Synchronous programming ( example )
+- Asynchronous programming ( exmaple )
+# Callbacks
+- Callbacks in JavaScript ( example )
