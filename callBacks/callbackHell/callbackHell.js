@@ -1,4 +1,6 @@
 // fucntion
-function getData(dataId){ 
-    console.log("data",dataId);
+function getData(dataId) {
+    setTimeout(() => {
+        console.log("data", dataId);
+    },2000);
 }
