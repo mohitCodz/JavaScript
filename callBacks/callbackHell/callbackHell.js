@@ -1,6 +1,7 @@
 // fucntion
 function getData(dataId,getNextData) {
-    setTimeout(() => { // delay for 2 second
+    // setTimeout to delay fro 2 second
+    setTimeout(() => { 
         console.log("data", dataId);
         getNextData(); // function calling 
     },2000);
