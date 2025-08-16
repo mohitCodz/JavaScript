@@ -4,5 +4,7 @@ function sum (a,b){
 }
 // another function
 function calculator(a,b,sumCallBack){
-    sumCallBack(a,b);
+    sumCallBack(a,b); 
 }
+// call
+calculator(1,2,sum);
