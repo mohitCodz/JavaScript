@@ -11,8 +11,6 @@ calculator(1,2,sum); // here sum ia passsing as an argument to another function 
 // don't pass it with (). only pass it with the function name
 
 // another example using arrow function
-
-// function
 function sum (a,b){
     console.log(a+b);
 }
