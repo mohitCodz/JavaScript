@@ -6,14 +6,18 @@
 
 /// fucntion
 function getData(dataId, getNextData) {
-    // setTimeout to delay fro 2 second
-    setTimeout(() => {
-        console.log("data", dataId);
-        // condition
-        if (getNextData) {
-            getNextData(); // if this funcitonn exists only then this function will call
-        }
-    }, 2000);
+    return new Promise((resolve, reject) => {
+        // setTimeout to delay fro 2 second
+        setTimeout(() => {
+            console.log("data", dataId);
+            resolve("success");
+            // condition
+            if (getNextData) {
+                getNextData(); // if this funcitonn exists only then this function will call
+            }
+        }, 5000);
+    });
+
 }
 
 
