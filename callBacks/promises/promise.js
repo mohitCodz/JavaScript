@@ -1,7 +1,8 @@
 const getPromise = () => {
     return new Promise((resolve, reject) => {
         console.log("this is promise");
-        resolve("Success");
+        // resolve("Success");
+        reject("Rejected");
     });
 };
 let promise = getPromise();
@@ -15,3 +16,6 @@ promise.then((res) => {
 });
 
 // catch meathod
+promise.catch((err)=>{
+console.log("Error Found!! /n Promise can't be fullfield");
+})
