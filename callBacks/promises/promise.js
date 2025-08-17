@@ -6,7 +6,7 @@ let promise = new Promise ((resolve, reject)=>{
 
 // fucntion 
 function getData(dataId, getNextData) {
-   return new Promise (()=>{})
+   return new Promise ((resolve,reject)=>{})
 }
 
 
