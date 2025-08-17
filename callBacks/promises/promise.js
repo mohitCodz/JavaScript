@@ -1,8 +1,9 @@
-// creating a new promise
-let promise = new Promise ((resolve, reject)=>{
-    reject("Error Found");
-});
+const getPromise = () =>{
+new Promise ((resolve, reject)=>{
 
+    resolve("Error Found");
+});
+}
 
 // // fucntion
 // function getData(dataId, getNextData) {
