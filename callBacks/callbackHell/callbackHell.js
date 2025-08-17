@@ -8,4 +8,4 @@ function getData(dataId,getNextData) {
 }
 getData(1,()=>{
     getData(2)
-}); // here we have passed the same function for the nextdata -> getDa
+}); // here we have passed the same function for the nextdata 
