@@ -9,7 +9,7 @@ function getData(dataId, getNextData) {
         }
     }, 2000);
 }
-// the code below is called callback hell ( multiple )
+// the code below is called callback hell ( multiple callbacks inside each other )
 getData(1, () => {
     getData(2, () => {
         getData(3, () => {
