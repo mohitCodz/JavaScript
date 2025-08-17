@@ -6,3 +6,6 @@ const getPromise = () => {
 };
 let promise = getPromise();
 // using then meathod 
+promise.then(() => {
+    console.log("Promise is fullfield");
+});
