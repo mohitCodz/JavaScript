@@ -17,5 +17,5 @@ promise.then((res) => {
 
 // catch meathod
 promise.catch((err)=>{
-console.log("Error Found!! /n Promise can't be fullfield");
+console.log("Error Found!! \n Promise can't be fullfield");
 })
