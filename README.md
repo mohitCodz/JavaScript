@@ -1,7 +1,7 @@
 # JavaScript from basic 
 ## Functions and Meathods
 - All functions and meathods in the javaScript
-# Document Object Model ( DOM )
+## Document Object Model ( DOM )
 - Document object model
 ## Events in JavaScript
 - All the events in the JavaScript
