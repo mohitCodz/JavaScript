@@ -8,8 +8,7 @@ let promise = getPromise();
 // using then meathod 
 // if the promise is fullfield then this will be exacuted
 promise.then(() => {
-    setTimeout(()=>{
-
-    console.log("Promise is fullfield");
-    },5000);
+    setTimeout(() => {
+        console.log("Promise is fullfield");
+    }, 5000);
 });
