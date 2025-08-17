@@ -1,7 +1,7 @@
-// creating a new promise
-let promise = new Promise ((resolve, reject)=>{
-    reject("Error Found");
-});
+// // creating a new promise
+// let promise = new Promise ((resolve, reject)=>{
+//     reject("Error Found");
+// });
 
 
 // fucntion 
