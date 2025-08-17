@@ -6,4 +6,6 @@ function getData(dataId,getNextData) {
         getNextData(); // function calling 
     },2000);
 }
-getData(1,getData(2)); // here we have passed the same function for the nextdata -> getData(2) 
+getData(1,()=>{
+    
+}); // here we have passed the same function for the nextdata -> getData(2) 
