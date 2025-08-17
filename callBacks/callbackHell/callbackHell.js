@@ -11,6 +11,8 @@ function getData(dataId,getNextData) {
 }
 getData(1,()=>{
     getData(2, ()=>{
-        getData(3);
+        getData(3, ()=>{
+            getData(4); 
+        });
     })
 }); // here we have passed the same function for the nextdata 
