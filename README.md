@@ -27,4 +27,5 @@
 ### Callback Hell
 - What is Callback Hell
 ### Promises
-- Promises in JavaScript
+- What are Promises in JavaScript
+- How to use promises in JavaScript
