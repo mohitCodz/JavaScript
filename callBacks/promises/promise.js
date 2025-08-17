@@ -1,4 +1,4 @@
-// // creating a new promise
+//  creating a new promise
 // let promise = new Promise ((resolve, reject)=>{
 //     reject("Error Found");
 // });
@@ -19,22 +19,3 @@ function getData(dataId, getNextData) {
     });
 
 }
-
-
-
-
-
-
-
-
-
-
-
-// // the code below is called callback hell ( multiple callbacks inside each other )
-// getData(1, () => {
-//     getData(2, () => {
-//         getData(3, () => {
-//             getData(4);
-//         });
-//     })
-// }); // here we have passed the same function for the nextdata 
