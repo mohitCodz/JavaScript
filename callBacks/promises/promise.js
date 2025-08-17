@@ -4,7 +4,7 @@
 // });
 
 
-/// fucntion
+// fucntion
 function getData(dataId, getNextData) {
     return new Promise((resolve, reject) => {
         // setTimeout to delay fro 2 second
