@@ -5,3 +5,4 @@ const getPromise = () => {
     });
 };
 let promise = getPromise();
+// using then meathod 
