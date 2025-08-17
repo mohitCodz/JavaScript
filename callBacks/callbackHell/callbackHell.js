@@ -7,5 +7,5 @@ function getData(dataId,getNextData) {
     },2000);
 }
 getData(1,()=>{
-    
+    getData(2)
 }); // here we have passed the same function for the nextdata -> getData(2) 
