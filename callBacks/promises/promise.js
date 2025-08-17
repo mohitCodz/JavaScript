@@ -4,6 +4,10 @@ let promise = new Promise ((resolve, reject)=>{
 });
 
 
+// fucntion 
+function getData(dataId, getNextData) {
+   return new Promise (()=>{})
+}
 
 
 
@@ -15,24 +19,6 @@ let promise = new Promise ((resolve, reject)=>{
 
 
 
-
-
-
-
-
-
-
-// // fucntion
-// function getData(dataId, getNextData) {
-//     // setTimeout to delay fro 2 second
-//     setTimeout(() => {
-//         console.log("data", dataId);
-//         // condition
-//         if (getNextData) {
-//             getNextData(); // if this funcitonn exists only then this function will call
-//         }
-//     }, 2000);
-// }
 // // the code below is called callback hell ( multiple callbacks inside each other )
 // getData(1, () => {
 //     getData(2, () => {
