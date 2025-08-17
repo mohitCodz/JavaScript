@@ -1,8 +1,8 @@
 const getPromise = () => {
     return new Promise((resolve, reject) => {
         console.log("this is promise");
-        // resolve("Success");
-        reject("Rejected");
+        resolve("Success");
+        // reject("Rejected");
     });
 };
 let promise = getPromise();
