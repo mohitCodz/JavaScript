@@ -1,10 +1,10 @@
-const getPromise = () =>{
-new Promise ((resolve, reject)=>{
-
-    resolve("Error Found");
-});
-}
-
+const getPromise = () => {
+    new Promise((resolve, reject) => {
+        console.log("this is promise");
+        resolve("Success");
+    });
+};
+let promise = getPromise();
 // // fucntion
 // function getData(dataId, getNextData) {
 //     return new Promise((resolve, reject) => {
