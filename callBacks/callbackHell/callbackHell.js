@@ -4,7 +4,9 @@ function getData(dataId,getNextData) {
     setTimeout(() => { 
         console.log("data", dataId);
         // condition
-        getNextData(); // function calling 
+        if (getNextData){
+            getNextData(); // if this funcitonn exists only then this function will call
+        }
     },2000);
 }
 getData(1,()=>{
