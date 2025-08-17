@@ -1,4 +1,4 @@
-// crea
+// creating a new promise
 
 
 
