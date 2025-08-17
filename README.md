@@ -22,5 +22,9 @@
 ## Sync
 - Synchronous programming ( example )
 - Asynchronous programming ( exmaple )
-# Callbacks
+## Callbacks
 - Callbacks in JavaScript ( example )
+### Callback Hell
+- What is Callback Hell
+### Promises
+- Promises in JavaScript
