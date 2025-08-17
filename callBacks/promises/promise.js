@@ -1,5 +1,6 @@
 // creating a new promise
 let promise = new Promise ((resolve, reject)=>{
+    
     resolve("Problem resolved");
 })
 
