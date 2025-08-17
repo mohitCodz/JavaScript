@@ -1,5 +1,7 @@
 // creating a new promise
-let promise = new Promise ()
+let promise = new Promise ((resolve, reject)=>{
+    
+})
 
 
 
