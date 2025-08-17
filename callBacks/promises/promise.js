@@ -1,5 +1,5 @@
 // creating a new promise
-
+let promise = new Promise ()
 
 
 
