@@ -3,6 +3,7 @@ function getData(dataId,getNextData) {
     // setTimeout to delay fro 2 second
     setTimeout(() => { 
         console.log("data", dataId);
+        // condition
         getNextData(); // function calling 
     },2000);
 }
