@@ -6,7 +6,15 @@ let promise = new Promise ((resolve, reject)=>{
 
 // fucntion 
 function getData(dataId, getNextData) {
-   return new Promise ((resolve,reject)=>{})
+   return new Promise ((resolve,reject)=>{
+      setTimeout(() => {
+        console.log("data", dataId);
+        resolve("Success");
+        // condition
+        if (getNextData) {
+            getNextData(); // if this funcitonn exists only then this function will call
+        }
+   });
 }
 
 
