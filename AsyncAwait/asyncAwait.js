@@ -4,11 +4,11 @@
 // }
 
 function api() {
-    setTimeout(() => {
-        return new PerformanceMeasure((resolve, reject) => {
-        console.log("Weather Data");
-        resolve(200); // here 200 means/represents a sucessfull api call
-    }, 2000);
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Weather Data");
+            resolve(200); // here 200 means/represents a sucessfull api call
+        }, 2000);
     });
 }
 
