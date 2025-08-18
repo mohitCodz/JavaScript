@@ -25,9 +25,9 @@
 ## Callbacks
 - Callbacks in JavaScript ( example )
 ### Callback Hell
-- What is Callback Hell
+- What is Callback Hell - ( It is way or write code but also a problem when we use calbacks again and again insde each other )
 ### Promises
-- What are Promises in JavaScript
+- What are Promises in JavaScript - ( Solve the Callback hell problem little bit )
 - How to use promises in JavaScript
 ## Async-Await
-- How to use Async-Await 
+- How to use Async-Await - ( Better way of writing code then CallBack Hell and Promises )
