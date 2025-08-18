@@ -26,7 +26,7 @@ p1.then((res) => {
 
 // dealing with promises
 console.log("Getting data 2............");
-let p1 = asyncFunc();
+let p2 = asyncFunc();
 p1.then((res) => {
     console.log(res);
 });
