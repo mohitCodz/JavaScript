@@ -20,4 +20,4 @@ promise.catch((err) => {
     setTimeout(() => {
         console.log("Error Found!! \n Promise can't be fullfield");
     }, 5000);
-})
+}
