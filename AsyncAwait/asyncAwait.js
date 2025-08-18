@@ -5,7 +5,7 @@
 
 function api() {
     setTimeout(() => {
-        eturn new PerformanceMeasure((resolve, reject) => {
+        return new PerformanceMeasure((resolve, reject) => {
         console.log("Weather Data");
         resolve(200); // here 200 means/represents a sucessfull api call
     }, 2000);
