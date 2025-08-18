@@ -50,3 +50,4 @@ function getData(dataIDd) {
     await getData(3);
      console.log("Got all the data !");
 })(); //IIFE
+// automatic call
