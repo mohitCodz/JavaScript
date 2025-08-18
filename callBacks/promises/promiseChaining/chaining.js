@@ -13,12 +13,19 @@ function asyncFunc() {
         setTimeout(() => {
             console.log("Data 2");
             resolve("Success");
-        }, 4000);
+        }, 6000);
     })
 }
 
 // dealing with promises
 console.log("Getting data 1............");
+let p1 = asyncFunc();
+p1.then((res) => {
+    console.log(res);
+});
+
+// dealing with promises
+console.log("Getting data 2............");
 let p1 = asyncFunc();
 p1.then((res) => {
     console.log(res);
