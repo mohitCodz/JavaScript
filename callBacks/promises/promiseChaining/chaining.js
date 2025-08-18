@@ -13,7 +13,7 @@ function asyncFunc2() {
         setTimeout(() => {
             console.log("Data 2");
             resolve("Success");
-        }, 6000);
+        }, 4000);
     })
 }
 
