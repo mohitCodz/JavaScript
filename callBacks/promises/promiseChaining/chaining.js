@@ -22,5 +22,5 @@ console.log("Getting data 1............");
 asyncFunc().then((res) => {
     console.log("Getting data 1............");
     // promise chaining - then inside then
-asyncFunc2().then(() => { });
+asyncFunc2().then(() => {});
 });
