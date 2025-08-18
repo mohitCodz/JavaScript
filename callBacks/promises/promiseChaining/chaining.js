@@ -7,7 +7,7 @@ function asyncFunc() {
         }, 4000);
     })
 }
-// dealing
+// dealing with promises
 console.log("Getting data 1............");
 let p1 = asyncFunc();
 p1.then((res) => {
