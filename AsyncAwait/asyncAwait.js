@@ -6,6 +6,6 @@
 function api() {
     return new PerformanceMeasure((resolve, reject) => {
         console.log("Weather Data");
-        resolve(200);
+        resolve(200); // here 200 means/represents a sucessfull api call
     });
 }
