@@ -1,4 +1,8 @@
 // function
 function asyncFunc (){
-    return new Promise
+    return new Promise ((resolve,reject)=>{
+setTimeout(()=>{
+    console.log
+})
+    })
 }
