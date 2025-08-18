@@ -2,7 +2,7 @@
 function asyncFunc() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            console.log("");
+            console.log("Data 1");
             resolve("Success");
         }, 4000);
     })
