@@ -8,7 +8,7 @@ function asyncFunc() {
     })
 }
 // function - suppose this as an api -we only deal with promises
-function asyncFunc() {
+function asyncFunc2() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             console.log("Data 2");
