@@ -16,6 +16,7 @@ promise.then((res) => {
 });
 
 // catch meathod
+// if
 promise.catch((err) => {
     setTimeout(() => {
         console.log("Error Found!! \n Promise can't be fullfield");
