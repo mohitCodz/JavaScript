@@ -23,6 +23,6 @@ asyncFunc().then((res) => {
     console.log("Getting data 1............");
     // 2nd promise p2 
     // promise chaining - then inside then
-    let p2 = asyncFunc2();
+asyncFunc2();
     p2.then(() => { });
 });
