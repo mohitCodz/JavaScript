@@ -22,7 +22,7 @@ function getData(dataIDd) {
         setTimeout(() => {
             console.log("Data", dataIDd);
             resolve("Successfully Fetched DATA");
-        }, 3000);
+        }, 2000);
     });
 }
 
