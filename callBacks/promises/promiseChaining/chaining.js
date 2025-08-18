@@ -19,8 +19,7 @@ function asyncFunc2() {
 
 // dealing with promises
 console.log("Getting data 1............");
-let p1 = asyncFunc();
-p1.then((res) => {
+asyncFunc().then((res) => {
     console.log("Getting data 1............");
     // 2nd promise p2 
     // promise chaining - then inside then
