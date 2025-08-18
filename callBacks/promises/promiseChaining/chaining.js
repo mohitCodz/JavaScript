@@ -1,4 +1,4 @@
-// function
+// function - suppose this as an api -we only deal with promises
 function asyncFunc() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
