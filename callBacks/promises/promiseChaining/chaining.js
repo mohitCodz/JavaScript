@@ -8,6 +8,6 @@ function asyncFunc() {
     })
 }
 let p1 = asyncFunc();
-p1.then((res)=>{
-console.log(res);
+p1.then((res) => {
+    console.log(res);
 });
