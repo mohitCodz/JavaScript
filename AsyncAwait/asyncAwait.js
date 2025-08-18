@@ -25,3 +25,8 @@ function getData(dataIDd) {
         }, 3000);
     });
 }
+
+// async await
+async function getAllData() {
+    
+}
