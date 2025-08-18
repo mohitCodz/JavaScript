@@ -16,7 +16,7 @@ promise.then((res) => {
 });
 
 // catch meathod
-// if the promise is not fullfield then 
+// if the promise is not fullfield then this will execute
 promise.catch((err) => {
     setTimeout(() => {
         console.log("Error Found!! \n Promise can't be fullfield");
