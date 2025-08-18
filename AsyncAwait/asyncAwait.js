@@ -1,4 +1,4 @@
 // async function
-async function hello(){
-    console.log("Helllo");
-}
+// async function hello(){
+//     console.log("Helllo");
+// }
