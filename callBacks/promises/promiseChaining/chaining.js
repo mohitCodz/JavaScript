@@ -7,3 +7,4 @@ function asyncFunc() {
         }, 4000);
     })
 }
+let p1 = asyncFunc();
