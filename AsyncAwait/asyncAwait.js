@@ -16,3 +16,12 @@
 // async function getWeatherData() {
 //     await api(); // we only use await keyword in async function
 // }
+
+function getData(dataIDd) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Data", dataIDd);
+            resolve("Successfully Fetched DATA");
+        }, 3000);
+    });
+}
