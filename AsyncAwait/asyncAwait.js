@@ -6,7 +6,7 @@
 function api() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            console.log("Weather Data");
+            console.log("Weather id Clear");
             resolve(200); // here 200 means/represents a sucessfull api call
         }, 2000);
     });
