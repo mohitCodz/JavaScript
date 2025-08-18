@@ -26,7 +26,7 @@ function getData(dataIDd) {
     });
 }
 
-// async await
+// simple async-await
 // async function getAllData() {
 //     console.log("Getting data 1.......");
 //     await getData(1);
