@@ -7,6 +7,7 @@ function asyncFunc() {
         }, 4000);
     })
 }
+console.log("Getting data 1");
 let p1 = asyncFunc();
 p1.then((res) => {
     console.log(res);
