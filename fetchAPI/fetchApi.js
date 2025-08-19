@@ -8,5 +8,5 @@ const getFact = async () => {
     console.log(response); // the response will be in JSON format
     // using json () meathod
     let data = await response.json();
-    console.log(data); // displaying the data that is converted from JSON
+    console.log(data); // displaying the data that is converted from JSON to 
 }
