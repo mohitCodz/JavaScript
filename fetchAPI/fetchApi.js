@@ -7,5 +7,5 @@ const getFact = async () => {
     let response = await fetch(URL);
     console.log(response); // the response will be in JSON format
     // using json () meathod
-    response.json();
+    let data = await response.json();
 }
