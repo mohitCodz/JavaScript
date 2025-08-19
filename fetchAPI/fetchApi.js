@@ -1,6 +1,6 @@
 // url
 const URL = "https://catfact.ninja/fact"
-
+const fa
 const getFact = async () => {
     // featch meathod
     console.log("Fetching data please wait....");
