@@ -3,7 +3,7 @@ const URL = "https://alexwohlbruck.github.io/cat-facts/"
 
 const getFact = async () => {
 // featch meathod
-let res = await fetch(URL);
+let response = await fetch(URL);
 console.log(promise);
 
 }
