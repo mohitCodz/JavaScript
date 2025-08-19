@@ -1,4 +1,4 @@
-// url
+// url - API
 const URL = "https://catfact.ninja/fact"
 const factPara = document.querySelector('#fact');
 const btn = document.querySelector('#button');
