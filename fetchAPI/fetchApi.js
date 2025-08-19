@@ -8,5 +8,5 @@ const getFact = async () => {
     console.log(response); // JSON format
     // using json () meathod
     let data = await response.json(); // 2nd promise return
-    console.log(data[4]); // data is an object with a 'fact' property
+    console.log(data.fact); // data is an object with a 'fact' property
 };
