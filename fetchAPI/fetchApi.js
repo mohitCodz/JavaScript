@@ -14,4 +14,3 @@ const getFact = async () => {
 
 // adding event listener
 btn.addEventListener("click",getFact);
-getFact();
