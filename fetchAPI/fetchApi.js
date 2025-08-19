@@ -1,5 +1,5 @@
 // url
-const URL = "https://catfact.ninja/fact";
+const URL = "https://catfact.ninja/fact"
 
 const getFact = async () => {
     // featch meathod
@@ -8,5 +8,5 @@ const getFact = async () => {
     console.log(response); // JSON format
     // using json () meathod
     let data = await response.json(); // 2nd promise return
-    console.log(data); // data is an object with a 'fact' property
+    console.log(data[4]); // data is an object with a 'fact' property
 };
