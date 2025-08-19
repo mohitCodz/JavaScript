@@ -2,7 +2,7 @@
 const URL = "https://catfact.ninja/fact"
 const factPara = document.querySelector('#fact');
 const btn = document.querySelector('#button');
-// adding 
+// adding event listeners 
 btn.addEventListener("click",getFact);
 const getFact = async () => {
     // featch meathod
