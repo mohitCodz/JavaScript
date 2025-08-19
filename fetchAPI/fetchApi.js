@@ -6,5 +6,4 @@ const getFact = async () => {
     console.log("Fetching data please wait....");
     let response = await fetch(URL);
     console.log(response);
-
 }
