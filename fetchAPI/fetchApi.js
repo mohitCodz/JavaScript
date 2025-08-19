@@ -5,5 +5,5 @@ const getFact = async () => {
     // featch meathod
     console.log("Fetching data please wait....");
     let response = await fetch(URL);
-    console.log(response);
+    console.log(response); // the 
 }
