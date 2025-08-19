@@ -31,3 +31,6 @@
 - How to use promises in JavaScript
 ## Async-Await
 - How to use Async-Await - ( Better way of writing code then CallBack Hell and Promises )
+## Fecth API
+- How to use API
+- A simple demonstration of using APIs
