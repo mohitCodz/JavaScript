@@ -11,6 +11,7 @@ const getFact = async () => {
     let data = await response.json(); // 2nd promise return
     factPara.innerText = data.fact;
 };
-getFact();
+
 // adding event listener
 btn.addEventListener("click",getFact);
+getFact();
