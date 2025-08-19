@@ -8,7 +8,6 @@ const getFact = async () => {
     console.log(response); // JSON format
     // using json () meathod
     let data = await response.json(); // 2nd promise return
-    console.log(data.fact); // data is an object with a 'fact' property
-    factPara.innerText = data.fact.text;
+    factPara.innerText = data.fact;
 };
 getFact();
