@@ -10,3 +10,4 @@ const getFact = async () => {
     let data = await response.json(); // 2nd promise return
     console.log(data.fact); // data is an object with a 'fact' property
 };
+getFact();
